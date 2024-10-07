@@ -45,11 +45,19 @@
           }
         }
       }
+      h3{ 
+        width: min(100%, 700px);
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: 24px;
+
+      }
       p {
         font-size: 1.2em;
         column-count: 2;
         column-gap: 40px;
-        margin-top: 30px;
+        margin-top: 60px;
+        text-align: start;
 
         @media (max-width: 740px) {
           column-count: 1;
@@ -120,7 +128,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #000;
+  background-color: #4D5850;
   color: white;
   .luxury-content {
     display: grid;
@@ -178,11 +186,11 @@
   }
 }
 
-.the-club-about {
+.forth-about {
   display: flex;
   flex-direction: column;
   align-items: start;
-  color: #333;
+ 
 
   .content {
     display: flex;
@@ -205,6 +213,7 @@
           font-size: 55px;
           font-weight: 400;
           max-width: 20ch;
+          color: #4D5850;
 
           @media (max-width: 740px) {
             font-size: 36px;
@@ -248,7 +257,7 @@
   }
 }
 
-.the-club.about {
+.sixth-about.about {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -264,6 +273,7 @@
       font-family: "Playfair Display", serif;
       font-size: 54px;
       font-weight: 400;
+      color: #4D5850;
       span {
         font-size: 68px;
         font-weight: bold;
@@ -308,6 +318,7 @@
       text-transform: uppercase;
       line-height: 1.5;
 
+      
       text-align: center;
       width: min(100%, 1024px);
       font-style: italic;

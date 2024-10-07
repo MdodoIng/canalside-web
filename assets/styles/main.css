@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   h1 {
     font-family: "Playfair Display", serif;
-    color: #d4a373;
+    color: #4d5850;
     font-size: 36px;
     margin: 0;
   }
@@ -109,7 +109,6 @@ body {
   }
 }
 
-
 .wave-icon {
   margin-bottom: 20px;
   display: flex;
@@ -122,5 +121,114 @@ body {
     path {
       fill: #be946a;
     }
+  }
+}
+
+section.contact-form {
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+
+  h2 {
+    font-size: 46px;
+    font-family: "Playfair Display", serif;
+    max-width: 20ch;
+    color: #4d5850;
+
+    @media (max-width: 740px) {
+      font-size: 36px;
+    }
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: min(100%, 600px);
+    background-color: white;
+
+    padding: 40px 40px;
+
+
+    @media (max-width: 740px) {
+      padding: 20px;
+    }
+
+    & > p {
+      font-size: 20px;
+      color: #4d5850;
+      max-width: 30ch;
+
+      a {
+        text-decoration: none;
+        color: currentColor;
+      }
+
+
+      @media (max-width: 740px) {
+        font-size: 16px;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+      
+      & > input {
+        width: calc(50% - 10px);
+
+        padding: 10px 20px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #4d5850;
+         &:placeholder {
+          color: #4d5850;
+         }
+
+         @media (max-width: 740px) {
+          width: 100%;
+        }
+      }
+
+      .submit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+        margin-top: 20px;
+
+        label {
+          display: flex;
+          align-items: start;
+          justify-content: start;
+          gap: 10px;
+
+          p {
+            font-size: 12px;
+            color: #4d5850;
+          }
+        }
+
+        button {
+          outline: none;
+          border: none;
+          background-color: #4d5850;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 4px;
+
+          &:hover {
+            background: #494d4a;
+          }
+
+        }
+      }
+    }
+
+    
   }
 }

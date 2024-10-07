@@ -20,6 +20,7 @@
         font-family: "Playfair Display", serif;
         font-size: 58px;
         margin: 0;
+        color: #4d5850;
         @media (max-width: 740px) {
           font-size: 36px;
         }
@@ -39,8 +40,8 @@
       flex-shrink: 0;
       height: 100px;
       font-size: 38px;
-      color: #d4a373;
-      border: 1px dashed black;
+      color: #4d5850;
+      border: 1px dashed #4d5850;
       border-radius: 340px;
       padding: 10px;
       text-decoration: none;
@@ -125,6 +126,7 @@
       font-family: "Playfair Display", serif;
       line-height: 120%;
       max-width: 10ch;
+      color: #4d5850;
 
       @media (max-width: 740px) {
         font-size: 36px;
@@ -147,7 +149,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #000;
+  background-color: #4d5850;
   color: white;
   .luxury-content {
     display: grid;
@@ -273,12 +275,12 @@
       aspect-ratio: 15/16;
       border: none;
       outline: none;
-      color: #000;
-      background: #d4a259;
+      color: #fff;
+      background: #4d5850;
       cursor: pointer;
 
       &:hover {
-        background-color: #be946a;
+        background-color: #4d5850c2;
       }
 
       @media (max-width: 740px) {
@@ -302,6 +304,7 @@
       font-size: 56px;
       font-family: "Playfair Display", serif;
 
+      color: #4d5850;
       @media (max-width: 740px) {
         font-size: 34px;
       }
@@ -310,6 +313,7 @@
       font-size: 24px;
       font-family: "Playfair Display", serif;
       margin-top: 5px;
+
       @media (max-width: 740px) {
         font-size: 18px;
       }
@@ -419,6 +423,7 @@
     font-family: "Playfair Display", serif;
     max-width: 30ch;
 
+    color: #4d5850;
     @media (max-width: 740px) {
       font-size: 36px;
     }
@@ -434,6 +439,8 @@
     h4 {
       font-family: "Playfair Display", serif;
       font-size: 54px;
+      color: #4d5850;
+
       font-weight: 400;
       span {
         font-size: 68px;
