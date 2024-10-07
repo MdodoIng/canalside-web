@@ -81,7 +81,7 @@
       width: 100%;
       height: auto;
       position: absolute;
-      bottom: 0;
+      bottom: -1;
     }
   }
   @media (max-width: 740px) {
@@ -291,6 +291,7 @@
   }
   swiper-container {
     pointer-events: none;
+    height: 100%;
   }
   .text {
     display: flex;

@@ -29,18 +29,21 @@ body {
   margin-bottom: 0;
   padding-top: 40px;
 }
-.header h1 {
-  font-family: "Playfair Display", serif;
-  color: #d4a373;
-  font-size: 36px;
-  margin: 0;
+.header a {
+  text-decoration: none;
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: #d4a373;
+    font-size: 36px;
+    margin: 0;
+  }
 }
 .header nav {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 
@@ -81,7 +84,7 @@ justify-content: center;
         a {
           text-decoration: none;
           color: white;
-          font: 400 20px ;
+          font: 400 20px;
           text-transform: uppercase;
           font-family: "Playfair Display", serif;
         }
@@ -90,7 +93,6 @@ justify-content: center;
           height: 100%;
           background: white;
         }
-
       }
     }
   }
@@ -104,5 +106,21 @@ justify-content: center;
     font-size: 14px;
     justify-content: center;
     padding: 18px 18px;
+  }
+}
+
+
+.wave-icon {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  svg {
+    width: 50px;
+
+    path {
+      fill: #be946a;
+    }
   }
 }
