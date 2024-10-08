@@ -25,7 +25,7 @@
     justify-content: center;
     transform: translateY(-1px) !important;
 
-    .header {
+    .section-header {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -198,7 +198,7 @@
     align-items: center;
     justify-content: center;
 
-    .header {
+    .section-header {
       display: flex;
       flex-direction: column;
       align-items: center;

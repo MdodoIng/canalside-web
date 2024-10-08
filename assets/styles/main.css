@@ -149,7 +149,6 @@ section.contact-form {
 
     padding: 40px 40px;
 
-
     @media (max-width: 740px) {
       padding: 20px;
     }
@@ -164,7 +163,6 @@ section.contact-form {
         color: currentColor;
       }
 
-
       @media (max-width: 740px) {
         font-size: 16px;
       }
@@ -176,7 +174,7 @@ section.contact-form {
       gap: 20px;
       align-items: center;
       justify-content: space-between;
-      
+
       & > input {
         width: calc(50% - 10px);
 
@@ -184,11 +182,11 @@ section.contact-form {
         border-radius: 4px;
         outline: none;
         border: 1px solid #4d5850;
-         &:placeholder {
+        &:placeholder {
           color: #4d5850;
-         }
+        }
 
-         @media (max-width: 740px) {
+        @media (max-width: 740px) {
           width: 100%;
         }
       }
@@ -224,11 +222,13 @@ section.contact-form {
           &:hover {
             background: #494d4a;
           }
-
         }
       }
     }
-
-    
   }
+}
+
+.imageClip {
+  background-color: lightblue;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
