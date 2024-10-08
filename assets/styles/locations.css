@@ -96,6 +96,7 @@
   
           @media (max-width: 740px) {
             column-count: 1;
+            margin-top: 10px;
           }
         }
       }

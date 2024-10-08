@@ -1,0 +1,117 @@
+.specification {
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    .wave {
+      display: flex;
+      align-items: self-start;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+      z-index: 0;
+
+      .wave-png {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 100%;
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: white;
+        text-align: start;
+        gap: 20px;
+
+        .wave-icon {
+          h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 55px;
+            font-weight: 400;
+            max-width: 20ch;
+            @media (max-width: 740px) {
+              font-size: 36px;
+            }
+          }
+        }
+
+        p {
+          font-size: 1.2em;
+          max-width: 60ch;
+          margin-top: 10px;
+          text-align: start;
+        }
+      }
+    }
+  }
+
+  .second-section {
+    flex-direction: column;
+    & > menu {
+      display: grid;
+      gap: 80px;
+
+      width: 100%;
+
+      & > li {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+
+        h4 {
+          padding: 10px 10px;
+          background-color: #4d5850;
+          color: white;
+          font-family: "Playfair Display", serif;
+          font-size: 28px;
+        }
+
+        & > menu {
+          display: flex;
+          align-items: center;
+          justify-self: flex-start;
+          margin-top: 40px;
+          border-bottom: 1px solid black;
+          gap: 40px;
+          width: 100%;
+          padding-bottom: 20px; 
+          flex-wrap: wrap;
+          @media (max-width: 740px) {
+            gap: 20px;
+          }
+
+          
+          li {
+           display: flex;
+           align-items: center;
+           gap: 10px;
+          
+           
+           span {
+            width: 8px;
+            height: 8px;
+
+            border-radius: 100px;
+            background: #000;
+
+           }
+          }
+
+        }
+      }
+    }
+  }
+}
