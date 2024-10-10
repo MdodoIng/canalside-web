@@ -37,7 +37,7 @@
         .wave-icon {
           align-items: center;
           h1 {
-            font-family: "Playfair Display", serif;
+            font-family: "Graphik";
             font-size: 55px;
             font-weight: 700;
             max-width: 20ch;
@@ -48,7 +48,7 @@
         }
         h3 {
           width: min(100%, 700px);
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
           font-style: italic;
           font-size: 24px;
         }
@@ -104,7 +104,7 @@
 
         h3 {
           font-size: 56px;
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
 
           color: #4d5850;
           @media (max-width: 740px) {
@@ -113,7 +113,7 @@
         }
         h4 {
           font-size: 24px;
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
           margin-top: 5px;
 
           @media (max-width: 740px) {
@@ -210,7 +210,7 @@
       align-items: end;
 
       h4 {
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
         font-size: 54px;
         font-weight: 400;
         color: #4d5850;
@@ -245,7 +245,7 @@
       text-align: center;
       width: min(100%, 1024px);
       font-style: italic;
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       font-weight: 500;
 
       @media (max-width: 740px) {

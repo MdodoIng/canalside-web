@@ -17,7 +17,7 @@
       gap: 10px;
 
       h2 {
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
         font-size: 58px;
         margin: 0;
         color: #4d5850;
@@ -28,7 +28,7 @@
       p {
         font-size: 18px;
         color: #000;
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
         font-style: italic;
       }
     }
@@ -123,7 +123,7 @@
     h3 {
       font-size: 56px;
       font-weight: 800;
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       line-height: 120%;
       max-width: 10ch;
       color: #4d5850;
@@ -172,7 +172,7 @@
       h1 {
         font-size: 2.5em;
         margin: 0;
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
 
         @media (max-width: 740px) {
           font-size: 36px;
@@ -302,7 +302,7 @@
 
     h3 {
       font-size: 56px;
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
 
       color: #4d5850;
       @media (max-width: 740px) {
@@ -311,7 +311,7 @@
     }
     h4 {
       font-size: 24px;
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       margin-top: 5px;
 
       @media (max-width: 740px) {
@@ -420,7 +420,7 @@
 
   h3 {
     font-size: 56px;
-    font-family: "Playfair Display", serif;
+    font-family: "Graphik";
     max-width: 30ch;
 
     color: #4d5850;
@@ -437,7 +437,7 @@
     align-items: end;
 
     h4 {
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       font-size: 54px;
       color: #4d5850;
 
@@ -508,7 +508,7 @@
 
       h3 {
         font-size: 36px;
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
       }
 
       p {
@@ -575,7 +575,7 @@
   }
 }
 .unique-header {
-  font-family: "Playfair Display", serif;
+  font-family: "Graphik";
   font-size: 48px;
   font-weight: 700;
   margin: 20px 0;
@@ -599,7 +599,7 @@
     }
   }
   .unique-subheader {
-    font-family: "Playfair Display", serif;
+    font-family: "Graphik";
     font-size: 24px;
     font-weight: 400;
     margin: 10px 0;
@@ -629,7 +629,7 @@
   vertical-align: top;
 }
 .unique-feature-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Graphik";
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0;
@@ -691,7 +691,7 @@
 
     h1 {
       font-size: 3em;
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       max-width: 15ch;
 
       @media (max-width: 740px) {
@@ -728,7 +728,7 @@
     .wave-icon {
       align-items: flex-start;
       h1 {
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
         font-size: 55px;
         font-weight: 700;
         max-width: 20ch;
@@ -801,7 +801,7 @@
 
         h4 {
           font-size: 32px;
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
           line-height: 1;
         }
         p {
@@ -818,7 +818,7 @@
 
   .home-blog-title {
     font-size: 54px;
-    font-family: "Playfair Display", serif;
+    font-family: "Graphik";
 
     @media (max-width: 740px) {
       font-size: 36px;
@@ -860,7 +860,7 @@
           font-size: 24px;
           margin-bottom: 10px;
           font-weight: bold;
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
         }
 
         .home-blog-read-more {

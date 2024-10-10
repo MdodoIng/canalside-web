@@ -43,7 +43,7 @@
           align-items: flex-start;
           .wave-icon {
             h1 {
-              font-family: "Playfair Display", serif;
+              font-family: "Graphik";
               font-size: 55px;
               font-weight: 700;
               max-width: 20ch;
@@ -82,7 +82,7 @@
           h4 {
             font-size: 20px;
             font-weight: 500;
-            font-family: "Playfair Display", serif;
+            font-family: "Graphik";
           }
         }
       }
@@ -138,7 +138,7 @@
 
         h3 {
           font-size: 24px;
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
         }
         p {
           font-size: 16px;

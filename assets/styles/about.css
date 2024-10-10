@@ -36,7 +36,7 @@
       .wave-icon {
         align-items: center;
         h1 {
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
           font-size: 55px;
           font-weight: 700;
           max-width: 20ch;
@@ -45,12 +45,11 @@
           }
         }
       }
-      h3{ 
+      h3 {
         width: min(100%, 700px);
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
         font-style: italic;
         font-size: 24px;
-
       }
       p {
         font-size: 1.2em;
@@ -85,7 +84,7 @@
       gap: 40px;
 
       background-color: #f7f3f0;
-      padding: 40px 40px;
+      padding: 80px 80px;
       width: 100%;
 
       flex-wrap: wrap;
@@ -98,6 +97,7 @@
         .icon {
           font-size: 28px;
           color: goldenrod;
+          padding-top: 4px;
         }
 
         .text {
@@ -106,8 +106,10 @@
           gap: 6px;
 
           h3 {
-            font-size: 24px;
-            font-weight: 400;
+            font-size: 34px;
+            font-weight: 600;
+            font-family: "Graphik";
+            line-height: 1;
           }
           span {
             width: 20px;
@@ -128,7 +130,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #4D5850;
+  background-color: #4d5850;
   color: white;
   .luxury-content {
     display: grid;
@@ -151,7 +153,7 @@
       h1 {
         font-size: 2.5em;
         margin: 0;
-        font-family: "Playfair Display", serif;
+        font-family: "Graphik";
 
         @media (max-width: 740px) {
           font-size: 36px;
@@ -190,7 +192,6 @@
   display: flex;
   flex-direction: column;
   align-items: start;
- 
 
   .content {
     display: flex;
@@ -209,11 +210,11 @@
       .wave-icon {
         align-items: center;
         h1 {
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
           font-size: 55px;
           font-weight: 400;
           max-width: 20ch;
-          color: #4D5850;
+          color: #4d5850;
 
           @media (max-width: 740px) {
             font-size: 36px;
@@ -270,10 +271,10 @@
     align-items: end;
 
     h4 {
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       font-size: 54px;
       font-weight: 400;
-      color: #4D5850;
+      color: #4d5850;
       span {
         font-size: 68px;
         font-weight: bold;
@@ -303,7 +304,6 @@
   }
 
   .content {
-
     width: 100%;
     padding-bottom: 120px;
     border-bottom: 1px solid black;
@@ -312,19 +312,17 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    
+
     p {
       font-size: 18px;
       text-transform: uppercase;
       line-height: 1.5;
 
-      
       text-align: center;
       width: min(100%, 1024px);
       font-style: italic;
-      font-family: "Playfair Display", serif;
+      font-family: "Graphik";
       font-weight: 500;
-
     }
 
     &:after {

@@ -37,7 +37,7 @@
 
         .wave-icon {
           h1 {
-            font-family: "Playfair Display", serif;
+            font-family: "Graphik";
             font-size: 55px;
             font-weight: 700;
             max-width: 20ch;
@@ -76,7 +76,7 @@
   
         .wave-icon {
           h1 {
-            font-family: "Playfair Display", serif;
+            font-family: "Graphik";
             font-size: 55px;
             font-weight: 400;
             max-width: 20ch;
@@ -130,7 +130,7 @@
         h1 {
           font-size: 2.5em;
           margin: 0;
-          font-family: "Playfair Display", serif;
+          font-family: "Graphik";
   
           @media (max-width: 740px) {
             font-size: 36px;
