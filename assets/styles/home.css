@@ -438,10 +438,10 @@
 
     h4 {
       font-family: "Graphik";
-      font-size: 54px;
+      font-size: 44px;
       color: #4d5850;
 
-      font-weight: 400;
+      font-weight: 500;
       span {
         font-size: 68px;
         font-weight: bold;
@@ -876,13 +876,5 @@
         }
       }
     }
-  }
-}
-
-img {
-  transition: 0.3s ease-in-out;
-
-  &:hover {
-    filter: saturate(0.5);
   }
 }
