@@ -73,7 +73,7 @@
 @font-face {
     font-family: 'GT-Super-Regular';
     src: url('GTSuperDsTrial-Rg.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }

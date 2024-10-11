@@ -36,9 +36,13 @@
         gap: 20px;
 
         .wave-icon {
+          margin-bottom: 0;
+          svg {
+            margin-bottom: 16px;
+          }
           h1 {
-            font-family: "Graphik";
-            font-size: 55px;
+            font-family:  "GT-Super-Display-Regular";
+            font-size: 65px;
             font-weight: 400;
             max-width: 20ch;
             @media (max-width: 740px) {
@@ -48,9 +52,10 @@
         }
 
         p {
-          font-size: 1.2em;
+          font-size: 16px;
           max-width: 60ch;
-          margin-top: 10px;
+          line-height: 150%;
+          margin-top: 8px;
           text-align: start;
         }
       }
@@ -75,7 +80,7 @@
           padding: 10px 10px;
           background-color: #4d5850;
           color: white;
-          font-family: "Graphik";
+          font-family:  "GT-Super-Display-Regular";
           font-size: 28px;
         }
 

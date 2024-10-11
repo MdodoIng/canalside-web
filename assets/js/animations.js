@@ -8,7 +8,7 @@ gsap.utils.toArray(".imageClip").forEach((image) => {
     
     scrollTrigger: {
       trigger: image,
-      start: "bottom 90%", 
+      start: "bottom 40%", 
       end: "bottom top", 
       scrub: 0.5,    
       invalidateOnRefresh: true,
