@@ -2,7 +2,7 @@
 @import url(../font/GT-Super/stylesheet.css);
 
 :root {
-  --font-heading: "GT-Super-Text-Regular";
+  --font-heading:  'GT Super Display', sans-serif;
   --font-text: "Graphik";
 }
 
@@ -57,6 +57,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 45px;
+
+  @media (max-width: 740px) {
+    gap: 20px;
+  }
 }
 
 .header nav a {

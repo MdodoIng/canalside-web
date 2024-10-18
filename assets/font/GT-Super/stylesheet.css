@@ -1,53 +1,5 @@
 @font-face {
-    font-family: 'GT-Super-Bold';
-    src: url('GTSuperDsTrial-Bd.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Bold-Italic';
-    src: url('GTSuperDsTrial-BdIt.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Light';
-    src: url('GTSuperDsTrial-Lt.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Medium';
-    src: url('GTSuperDsTrial-Md.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Light-Italic';
-    src: url('GTSuperDsTrial-LtIt.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Regular-Italic';
-    src: url('GTSuperDsTrial-RgIt.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Medium-Italic';
+    font-family: 'GT Super Display';
     src: url('GTSuperDsTrial-MdIt.woff') format('woff');
     font-weight: 500;
     font-style: italic;
@@ -55,7 +7,47 @@
 }
 
 @font-face {
-    font-family: 'GT-Super-Super';
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-RgIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Super Display';
     src: url('GTSuperDsTrial-Su.woff') format('woff');
     font-weight: 900;
     font-style: normal;
@@ -63,31 +55,7 @@
 }
 
 @font-face {
-    font-family: 'GT-Super-Text-Black-Italic';
-    src: url('GTSuperTxtTrial-BlIt.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Regular';
-    src: url('GTSuperDsTrial-Rg.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Black';
-    src: url('GTSuperTxtTrial-Bl.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Super-Italic';
+    font-family: 'GT Super Display';
     src: url('GTSuperDsTrial-SuIt.woff') format('woff');
     font-weight: 900;
     font-style: italic;
@@ -95,64 +63,16 @@
 }
 
 @font-face {
-    font-family: 'GT-Super-Text-Bold';
-    src: url('GTSuperTxtTrial-Bd.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Book-Italic';
-    src: url('GTSuperTxtTrial-BkIt.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Book';
-    src: url('GTSuperTxtTrial-Bk.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Bold-Italic';
-    src: url('GTSuperTxtTrial-BdIt.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Medium-Italic';
-    src: url('GTSuperTxtTrial-MdIt.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Regular';
-    src: url('GTSuperTxtTrial-Rg.woff') format('woff');
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-Rg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'GT-Super-Text-Regular-Italic';
-    src: url('GTSuperTxtTrial-RgIt.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GT-Super-Text-Medium';
-    src: url('GTSuperTxtTrial-Md.woff') format('woff');
+    font-family: 'GT Super Display';
+    src: url('GTSuperDsTrial-Md.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
