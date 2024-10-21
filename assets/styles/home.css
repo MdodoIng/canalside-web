@@ -18,7 +18,7 @@
       gap: 10px;
 
       h2 {
-        font-family: "GT-Super-Display-Regular";
+        font-family: "GT-Super-Display-Regular"; font-weight: 400;
         font-size: 68px;
         margin: 0;
         color: white;
@@ -29,7 +29,7 @@
       p {
         font-size: 20px;
         color: white;
-        font-family: "GT-Super-Display-Regular";
+        font-family: "GT-Super-Display-Regular"; font-weight: 400;
         font-style: italic;
         max-width: 60ch;
       }
@@ -138,7 +138,7 @@
     h3 {
       font-size: 66px;
     
-      font-family: "GT-Super-Display-Regular";
+      font-family: "GT-Super-Display-Regular"; font-weight: 400;
       line-height: 120%;
       max-width: 10ch;
       color: #242324;
@@ -188,14 +188,14 @@
       h1 {
         font-size: 56px;
         margin: 0;
-        font-family: "GT-Super-Display-Regular";
+        font-family: "GT-Super-Display-Regular"; font-weight: 400;
 
         @media (max-width: 740px) {
           font-size: 36px;
         }
 
         span {
-          color: #d4a259;
+          color: #F9B467;
         }
       }
       p {
@@ -218,8 +218,8 @@
           font-size: 12px;
           aspect-ratio: 1;
           border-radius: 300px;
-          border: 1px solid #d4a259;
-          color: #d4a259;
+          border: 1px solid #F9B467;
+          color: #F9B467;
           height: 40px;
           text-align: center;
           display: flex;
@@ -229,13 +229,13 @@
         }
 
         &:hover {
-          color: #d4a259;
+          color: #F9B467;
 
           i {
             border: 1px solid white;
             color: white;
             transform: rotate(-10deg);
-            background-color: #d4a259;
+            background-color: #F9B467;
           }
         }
       }
@@ -247,7 +247,7 @@
           width: 50px;
 
           path {
-            fill: #d4a259;
+            fill: #F9B467;
           }
         }
       }
@@ -319,7 +319,7 @@
 
     h3 {
       font-size: 56px;
-      font-family: "GT-Super-Display-Regular";
+      font-family: "GT-Super-Display-Regular"; font-weight: 400;
 
       color: #242324;
       @media (max-width: 740px) {
@@ -328,7 +328,7 @@
     }
     h4 {
       font-size: 24px;
-      font-family: "GT-Super-Display-Regular";
+      font-family: "GT-Super-Display-Regular"; font-weight: 400;
       margin-top: 5px;
 
       @media (max-width: 740px) {
@@ -369,8 +369,8 @@
           font-size: 12px;
           aspect-ratio: 1;
           border-radius: 300px;
-          border: 1px solid #d4a259;
-          color: #d4a259;
+          border: 1px solid #F9B467;
+          color: #F9B467;
           height: 40px;
           text-align: center;
           display: flex;
@@ -380,13 +380,13 @@
         }
 
         &:hover {
-          color: #d4a259;
+          color: #F9B467;
 
           i {
             border: 1px solid black;
             color: black;
             transform: rotate(-10deg);
-            background-color: #d4a259;
+            background-color: #F9B467;
           }
         }
       }
@@ -439,7 +439,7 @@
 
   h3 {
     font-size: 66px;
-    font-family: "GT-Super-Display-Regular";
+    font-family: "GT-Super-Display-Regular"; font-weight: 400;
     max-width: 30ch;
 
     color: #242324;
@@ -456,7 +456,7 @@
     align-items: end;
 
     h4 {
-      font-family: "GT-Super-Display-Regular";
+      font-family: "GT-Super-Display-Regular"; font-weight: 400;
       font-size: 44px;
       color: #242324;
 
@@ -527,7 +527,7 @@
 
       h3 {
         font-size: 36px;
-        font-family: "GT-Super-Display-Regular";
+        font-family: "GT-Super-Display-Regular"; font-weight: 400;
       }
 
       p {
@@ -595,7 +595,7 @@
   }
 }
 .unique-header {
-  font-family: "GT-Super-Display-Regular";
+  font-family: "GT-Super-Display-Regular"; font-weight: 400;
   font-size: 48px;
   margin: 20px 0;
   display: flex;
@@ -618,7 +618,7 @@
     }
   }
   .unique-subheader {
-    font-family: "GT-Super-Display-Regular";
+    font-family: "GT-Super-Display-Regular"; font-weight: 400;
     font-size: 24px;
     font-weight: 400;
     margin: 10px 0;
@@ -648,7 +648,7 @@
   vertical-align: top;
 }
 .unique-feature-title {
-  font-family: "GT-Super-Display-Regular";
+  font-family: "GT-Super-Display-Regular"; font-weight: 400;
   font-size: 20px;
   margin: 10px 0;
 }
@@ -708,7 +708,7 @@
 
     h1 {
       font-size: 66px;
-      font-family: "GT-Super-Display-Regular";
+      font-family: "GT-Super-Display-Regular"; font-weight: 400;
       max-width: 15ch;
 
       @media (max-width: 740px) {
@@ -745,7 +745,7 @@
     .wave-icon {
       align-items: flex-start;
       h1 {
-        font-family: "GT-Super-Display-Regular";
+        font-family: "GT-Super-Display-Regular"; font-weight: 400;
         font-size: 65px;
         max-width: 20ch;
         @media (max-width: 740px) {
@@ -818,7 +818,7 @@
 
         h4 {
           font-size: 32px;
-          font-family: "GT-Super-Display-Regular";
+          font-family: "GT-Super-Display-Regular"; font-weight: 400;
           line-height: 1;
         }
         p {
@@ -834,7 +834,7 @@
 
   .home-blog-title {
     font-size: 65px;
-    font-family: "GT-Super-Display-Regular";
+    font-family: "GT-Super-Display-Regular"; font-weight: 400;
 
     @media (max-width: 740px) {
       font-size: 36px;
@@ -876,7 +876,7 @@
           font-size: 24px;
           margin-bottom: 10px;
           font-weight: bold;
-          font-family: "GT-Super-Display-Regular";
+          font-family: "GT-Super-Display-Regular"; font-weight: 400;
         }
 
         .home-blog-read-more {

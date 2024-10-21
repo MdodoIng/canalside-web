@@ -42,7 +42,7 @@
             margin-bottom: 16px;
           }
           h1 {
-            font-family:  "GT-Super-Display-Regular";
+            font-family:  "GT-Super-Display-Regular"; font-weight: 400;
             font-size: 65px;
             font-weight: 400;
             max-width: 20ch;
@@ -81,7 +81,7 @@
           padding: 10px 10px;
           background-color: #4d5850;
           color: white;
-          font-family:  "GT-Super-Display-Regular";
+          font-family:  "GT-Super-Display-Regular"; font-weight: 400;
           font-size: 28px;
         }
 
