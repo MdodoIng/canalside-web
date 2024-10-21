@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  background-color: #4d5850;
 
   .content {
     display: flex;
@@ -20,15 +21,14 @@
         font-family: "GT-Super-Display-Regular";
         font-size: 68px;
         margin: 0;
-        font-weight: 700;
-        color: #242324;
+        color: white;
         @media (max-width: 740px) {
           font-size: 36px;
         }
       }
       p {
         font-size: 20px;
-        color: #242324;
+        color: white;
         font-family: "GT-Super-Display-Regular";
         font-style: italic;
         max-width: 60ch;
@@ -42,8 +42,8 @@
       flex-shrink: 0;
       height: 150px;
       font-size: 48px;
-      color: #242324;
-      border: 1px dashed #4d5850;
+      color: white;
+      border: 1px dashed white;
       border-radius: 340px;
       padding: 10px;
       text-decoration: none;
@@ -137,7 +137,7 @@
 
     h3 {
       font-size: 66px;
-      font-weight: 800;
+    
       font-family: "GT-Super-Display-Regular";
       line-height: 120%;
       max-width: 10ch;
@@ -460,7 +460,7 @@
       font-size: 44px;
       color: #242324;
 
-      font-weight: 500;
+
       span {
         font-size: 68px;
         font-weight: bold;
@@ -597,7 +597,6 @@
 .unique-header {
   font-family: "GT-Super-Display-Regular";
   font-size: 48px;
-  font-weight: 700;
   margin: 20px 0;
   display: flex;
   flex-direction: column;
@@ -651,7 +650,6 @@
 .unique-feature-title {
   font-family: "GT-Super-Display-Regular";
   font-size: 20px;
-  font-weight: 700;
   margin: 10px 0;
 }
 .unique-feature-description {
@@ -749,7 +747,6 @@
       h1 {
         font-family: "GT-Super-Display-Regular";
         font-size: 65px;
-        font-weight: 700;
         max-width: 20ch;
         @media (max-width: 740px) {
           font-size: 36px;
