@@ -11,7 +11,7 @@
       width: 100%;
       position: relative;
       z-index: 0;
-      
+
 
       .wave-png {
         object-fit: contain;
@@ -42,10 +42,13 @@
           svg {
             margin-bottom: 16px;
           }
+
           h1 {
-            font-family:  "GT-Super-Display-Regular"; font-weight: 400;
+            font-family: "GT-Super-Display-Regular";
+            font-weight: 400;
             font-size: 65px;
             max-width: 20ch;
+
             @media (max-width: 740px) {
               font-size: 36px;
             }

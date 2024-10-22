@@ -1,5 +1,5 @@
-@font-face {
-    font-family: 'GT Super Display';
+/* @font-face {
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-MdIt.woff') format('woff');
     font-weight: 500;
     font-style: italic;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-Bd.woff') format('woff');
     font-weight: bold;
     font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-LtIt.woff') format('woff');
     font-weight: 300;
     font-style: italic;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-Lt.woff') format('woff');
     font-weight: 300;
     font-style: normal;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-BdIt.woff') format('woff');
     font-weight: bold;
     font-style: italic;
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-RgIt.woff') format('woff');
     font-weight: normal;
     font-style: italic;
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-Su.woff') format('woff');
     font-weight: 900;
     font-style: normal;
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-SuIt.woff') format('woff');
     font-weight: 900;
     font-style: italic;
@@ -63,7 +63,7 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-Rg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -71,9 +71,21 @@
 }
 
 @font-face {
-    font-family: 'GT Super Display';
+    font-family: 'GT-Super-Display-Regular';
     src: url('GTSuperDsTrial-Md.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+} */
+
+
+
+@font-face {
+    font-family: "GT-Super-Display-Regular";
+    src: url("https://db.onlinewebfonts.com/t/be33e70b70cc4c1454e8935aea8c66e3.eot");
+    src: url("https://db.onlinewebfonts.com/t/be33e70b70cc4c1454e8935aea8c66e3.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/be33e70b70cc4c1454e8935aea8c66e3.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/be33e70b70cc4c1454e8935aea8c66e3.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/be33e70b70cc4c1454e8935aea8c66e3.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/be33e70b70cc4c1454e8935aea8c66e3.svg#GT Super Display Regular")format("svg");
 }

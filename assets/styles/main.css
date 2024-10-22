@@ -2,7 +2,7 @@
 @import url(../font/GT-Super/stylesheet.css);
 
 :root {
-  --font-heading: "GT Super Display", sans-serif;
+  --font-heading: "GT-Super-Display-Regular";
   --font-text: "Graphik";
 }
 
@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: var(--font-text);
@@ -61,16 +62,19 @@ body {
 
 .header a {
   text-decoration: none;
+
   img {
     object-fit: contain;
     height: 60px;
     width: auto;
+
     @media (max-width: 740px) {
       height: 40px;
       max-width: 95vw;
     }
   }
 }
+
 .header nav {
   margin-top: 10px;
   display: flex;
@@ -104,6 +108,7 @@ body {
     width: 100%;
     display: flex;
     color: white;
+
     .wrapper {
       flex-direction: column;
       gap: 40px;
@@ -125,6 +130,7 @@ body {
         align-items: center;
         justify-content: center;
         gap: 20px;
+
         a {
           text-decoration: none;
           color: white;
@@ -132,6 +138,7 @@ body {
           font-weight: 400;
           text-transform: uppercase;
         }
+
         span {
           width: 1px;
           height: 100%;
@@ -164,7 +171,7 @@ body {
     width: 50px;
 
     path {
-      fill: #be946a;
+      fill: #F9B467;
     }
   }
 }
@@ -192,7 +199,8 @@ section.contact-form {
 
   h2 {
     font-size: 46px;
-    font-family: "GT-Super-Display-Regular"; font-weight: 400;
+    font-family: "GT-Super-Display-Regular";
+    font-weight: 400;
     max-width: 20ch;
     color: #242324;
 
@@ -200,6 +208,7 @@ section.contact-form {
       font-size: 36px;
     }
   }
+
   .details {
     display: flex;
     flex-direction: column;
@@ -214,7 +223,7 @@ section.contact-form {
       padding: 20px;
     }
 
-    & > p {
+    &>p {
       font-size: 20px;
       color: #242324;
       max-width: 30ch;
@@ -236,13 +245,14 @@ section.contact-form {
       align-items: center;
       justify-content: space-between;
 
-      & > input {
+      &>input {
         width: calc(50% - 10px);
 
         padding: 10px 20px;
         border-radius: 4px;
         outline: none;
         border: 1px solid #4d5850;
+
         &:placeholder {
           color: #242324;
         }

@@ -11,7 +11,7 @@
       width: 100%;
       position: relative;
       z-index: 0;
-      
+
 
       .wave-png {
         object-fit: contain;
@@ -37,22 +37,28 @@
 
         .wave-icon {
           align-items: center;
+
           h1 {
-            font-family: "GT-Super-Display-Regular"; font-weight: 400;
+            font-family: "GT-Super-Display-Regular";
+            font-weight: 400;
             font-size: 65px;
             max-width: 20ch;
+
             @media (max-width: 740px) {
               font-size: 36px;
             }
           }
         }
+
         h3 {
           width: min(100%, 700px);
-          font-family: "GT-Super-Display-Regular"; font-weight: 400;
+          font-family: "GT-Super-Display-Regular";
+          font-weight: 400;
           font-style: italic;
           font-size: 24px;
           font-weight: 400;
         }
+
         p {
           font-size: 16px;
           line-height: 150%;
@@ -106,27 +112,33 @@
 
         h3 {
           font-size: 56px;
-          font-family: "GT-Super-Display-Regular"; font-weight: 400;
+          font-family: "GT-Super-Display-Regular";
+          font-weight: 400;
 
           color: #242324;
+
           @media (max-width: 740px) {
             font-size: 34px;
           }
         }
+
         h4 {
           font-size: 24px;
-          font-family: "GT-Super-Display-Regular"; font-weight: 400;
+          font-family: "GT-Super-Display-Regular";
+          font-weight: 400;
           margin-top: 5px;
 
           @media (max-width: 740px) {
             font-size: 18px;
           }
         }
+
         p {
           font-size: 18px;
           text-transform: uppercase;
           line-height: 1.5;
           margin-top: 80px;
+
           @media (max-width: 740px) {
             font-size: 16px;
             margin-top: 30px;
@@ -176,6 +188,7 @@
               }
             }
           }
+
           @media (max-width: 740px) {
             margin-top: 54px;
           }
@@ -193,6 +206,7 @@
           }
         }
       }
+
       @media (max-width: 740px) {
         grid-template-columns: auto;
         grid-template-rows: 0.4fr 1fr 0.4fr;
@@ -213,10 +227,12 @@
       align-items: end;
 
       h4 {
-        font-family: "GT-Super-Display-Regular"; font-weight: 400;
+        font-family: "GT-Super-Display-Regular";
+        font-weight: 400;
         font-size: 54px;
         font-weight: 400;
         color: #242324;
+
         span {
           font-size: 68px;
           font-weight: bold;
@@ -248,8 +264,9 @@
       text-align: center;
       width: min(100%, 1024px);
       font-style: italic;
-      font-family: "GT-Super-Display-Regular"; font-weight: 400;
-   
+      font-family: "GT-Super-Display-Regular";
+      font-weight: 400;
+
 
       @media (max-width: 740px) {
         padding-top: 30px;
