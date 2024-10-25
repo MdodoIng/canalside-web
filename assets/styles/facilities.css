@@ -30,7 +30,7 @@
       .section-header {
         display: grid;
         grid-template-columns: 1fr .8fr;
-        color: white;
+        color: #4d5850;
         text-align: start;
         gap: 30px;
 

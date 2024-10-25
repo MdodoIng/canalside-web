@@ -1,9 +1,11 @@
 @import url(../font/graphik/stylesheet.css);
 @import url(../font/GT-Super/stylesheet.css);
+@import url(../font/sharp-sans/stylesheet.css);
 
 :root {
   --font-heading: "GT-Super-Display-Regular";
-  --font-text: "Graphik";
+  /* --font-text: "Graphik"; */
+  --font-text: "Sharp Sans";
 }
 
 * {

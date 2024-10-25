@@ -32,14 +32,4 @@ document.addEventListener("DOMContentLoaded", () => {
       observer.observe(element);
     });
   }
-
-  window.onload = function () {
-    if (window.location.pathname === "/") {
-      // Select header element
-      const header = document.getElementsByTagName("header")[0];
-
-      
-      header.className += " bg-gray";
-    }
-  };
 });

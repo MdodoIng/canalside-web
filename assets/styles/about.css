@@ -31,7 +31,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: white;
+      color: #242324;
       text-align: center;
 
       .wave-icon {
@@ -97,6 +97,7 @@
       width: 100%;
 
       flex-wrap: wrap;
+      box-shadow: 0px 0px 20px 2px #0000000f;
 
       li {
         display: flex;
@@ -141,8 +142,8 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #4d5850;
-  color: white;
+  color: #4d5850;
+  background-color: white;
 
   .luxury-content {
     display: grid;
@@ -150,7 +151,7 @@
     gap: 40px;
 
     &.two {
-      grid-template-columns: 0.8fr 1fr ;
+      grid-template-columns: 0.8fr 1fr;
     }
 
     .luxury-image {
